@@ -1,0 +1,17 @@
+.cover__link {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0, 0.3);
+  transition: background 0.3s;
+}
+
+.cover__link:hover {
+  background-color: rgba(0,0,0, 0.8);
+}

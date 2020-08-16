@@ -1,0 +1,34 @@
+.pages {
+  background-color: #2A2C2F;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .pages {
+    min-width: 1280px
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .pages {
+    min-width: 1024px;
+    max-width: 1279px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .pages {
+    min-width: 768px;
+    max-width: 1023px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .pages {
+    min-width: 320px;
+    max-width: 767px;
+  }
+}
