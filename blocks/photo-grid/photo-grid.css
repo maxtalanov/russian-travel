@@ -1,10 +1,10 @@
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
-    width: 92.5%;
+    max-width: 92.5%;
     margin: 0 auto;
     margin-top: 92px;
   }

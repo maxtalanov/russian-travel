@@ -1,17 +1,11 @@
 .lead__title {
-  display: flex;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 100px;
   text-align: center;
   color: #fff;
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .lead__title {
-    display: flex;
     max-width: 720px;
     min-height: 200px;
     margin: 0 132px;

@@ -1,17 +1,17 @@
 .lead__images {
   object-fit: cover;
-  margin: 0 auto;
+  margin: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .lead__images {
-    max-width: 984px;
+    max-width: 100%;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__images {
-    max-width: 928px;
+    max-width: 100%;
   }
 }
 

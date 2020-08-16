@@ -1,20 +1,17 @@
-.cover__subtitle {
-  margin: 0;
+.footer__link {
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
   color: #fff;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .cover__subtitle {
+  .footer {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 24px;
+    line-height: 24px;
   }
 }
-

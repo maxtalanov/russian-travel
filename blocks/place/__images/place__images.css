@@ -2,7 +2,7 @@
   object-fit: cover;
   margin: 0;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .place__images {
     max-width: 460px;
   }
@@ -25,3 +25,4 @@
     max-width: 100%;
   }
 }
+
