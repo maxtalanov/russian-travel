@@ -1,4 +1,4 @@
-# Проект 3: Путешествие по России
+# Проект 3: [Путешествие по России](https://maxtalanov.github.io/russian-travel/index.html)
 
 ### Обзор
 * Интро
