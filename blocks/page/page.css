@@ -1,5 +1,4 @@
-.pages {
-  background-color: #2A2C2F;
+.page {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7,13 +6,13 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .pages {
+  .page {
     max-width: 1280px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .pages {
+  .page {
     min-width: 320px;
   }
 }
