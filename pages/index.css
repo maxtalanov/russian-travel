@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 
+
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
@@ -9,14 +10,14 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 /* Конец СЕКЦИИ HEADER */
 
-
-@import url(../blocks/content/content.css);
 /* Начало СЕКЦИИ LEAD */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__images/lead__images.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 /* Конец СЕКЦИИ LEAD */
@@ -27,6 +28,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list-all/intro__list-all.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_text_normal/intro__list_text_normal.css);
 /* Конец СЕКЦИИ INTRO */
 
 /* Начало СЕКЦИИ PHOTO-GRID */
@@ -42,8 +44,8 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__paragraph-box/place__paragraph-box.css);
 /* Конец СЕКЦИИ PLACES */
 
 /* Начало СЕКЦИИ COVER */
@@ -56,9 +58,12 @@
 
 /* Начало СЕКЦИИ FOOTER */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__nav-menu/footer__nav-menu.css);
 @import url(../blocks/footer/__list-box/footer__list-box.css);
 @import url(../blocks/footer/__link-list/footer__link-list.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /* Конец СЕКЦИИ FOOTER */
+
+/* Начало Наведение на ссылку */
+@import url(../blocks/link-hover/link-hover.css);
+/* Конец Наведение на ссылку */

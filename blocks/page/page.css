@@ -1,18 +1,8 @@
 .page {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 1280px) {
-  .page {
-    max-width: 1280px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .page {
-    min-width: 320px;
-  }
+  max-width: 1280px;
+  min-width: 320px;
 }

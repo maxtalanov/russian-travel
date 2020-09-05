@@ -1,4 +1,4 @@
-.place__title{
+.place__title {
   justify-self: start;
   align-self: start;
   font-style: normal;
@@ -9,22 +9,8 @@
   color: #fff;
 }
 
-@media screen and (min-width: 1280px) {
-  .place__title{
-    max-width: 460px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .place__title{
-    max-width: 440px;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__title{
-    max-width: 340px;
-    font-weight: 900;
     font-size: 42px;
     line-height: 46px;
   }
@@ -33,7 +19,6 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .place__title{
     max-width: 100%;
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     margin: 0 16px;

@@ -1,7 +1,0 @@
-.place__paragraph-box {
-  margin: 0 0 24px 0;
-}
-
-.place__paragraph-box:nth-last-of-type(1) {
-  margin: 0;
-}

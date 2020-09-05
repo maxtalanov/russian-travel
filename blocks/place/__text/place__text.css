@@ -1,0 +1,15 @@
+.place__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  color: #fff;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .place__text {
+    font-size: 16px;
+    margin: 0 16px;
+  }
+}
