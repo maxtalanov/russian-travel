@@ -28,7 +28,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list-all/intro__list-all.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_text_normal/intro__list_text_normal.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 /* Конец СЕКЦИИ INTRO */
 
 /* Начало СЕКЦИИ PHOTO-GRID */

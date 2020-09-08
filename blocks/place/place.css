@@ -1,8 +1,12 @@
+/* Уважаемая, МАрина! Переправерил GAP по макету. Значения проставил по макету и изменил их местами. Как  Вы и рекомендовали.
+Для значения до 1279 gap-column: 32px.  Для значения до 767 gap-column: 28px. Поскольку данные различаются данный медиа запрос на 25
+строчке кода не требует удаления. Возможно где-то мы с вами ошиблись. Хорошего дня! :) */
+
 .place {
   display: grid;
   grid-template-columns: 460px minmax(min-content, max-content);
   grid-template-rows: repeat(2, minmax(min-content, max-content));
-  gap: 40px 48px;
+  gap: 48px 40px;
   margin: 0 0 80px 0;
 }
 
@@ -13,7 +17,7 @@
 @media screen and (max-width: 1279px) {
   .place {
     grid-template-columns: 440px minmax(min-content, max-content);
-    gap: 28px 48px;
+    gap: 48px 32px;
     padding-bottom: 80px;
   }
 }
@@ -21,7 +25,7 @@
 @media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: 340px minmax(min-content, max-content);
-    gap: 28px 48px;
+    gap: 48px 28px;
     padding-bottom: 72px;
 }
 }
@@ -32,5 +36,6 @@
       grid-template-rows: repeat(3, minmax(min-content, max-content));
       gap: 32px;
       padding-bottom: 48px;
+      margin: 0;
   }
 }
