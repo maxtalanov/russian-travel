@@ -2,17 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  max-width: 53.90%;
+  margin-top: 92px;
+  margin-left: 148px;
 }
 
-@media screen and (max-width: 1280px) {
-  .intro {
-    max-width: 53.90%;
-    margin-top: 92px;
-    margin-left: 148px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .intro {
     max-width: 67.38%;
     margin-top: 92px;
@@ -20,7 +15,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .intro {
     max-width: 93.75%;
     margin-top: 88px;
@@ -28,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .intro {
     max-width: 90%;
     margin-top: 64px;
